@@ -1,23 +1,18 @@
 
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { AdminComponent } from '../views/admin/admin.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatMenuModule} from '@angular/material/menu';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   imports: [
     CommonModule,
     BrowserAnimationsModule,
-    MatMenuModule
+    NgbModule
   ],
   exports: [
     BrowserAnimationsModule,
-    MatMenuModule
+    NgbModule
   ]
 })
 export class ComponentsModule {}
