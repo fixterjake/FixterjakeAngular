@@ -3,20 +3,20 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { AdminComponent } from './views/admin/admin.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 import { ComponentsModule } from './components/components.module';
-import { HomeComponent } from './views/home/home.component';
+import { HomeComponent } from './views/public/home/home.component';
+import { AdminHomeComponent } from './views/admin/admin-home/admin-home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AdminComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    AdminHomeComponent
   ],
   imports: [
     BrowserModule,
