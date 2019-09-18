@@ -1,5 +1,8 @@
 # Fixterjake
 
+[![Build Status](https://travis-ci.org/fixterjake/FixterjakeAngular.svg?branch=master)](https://travis-ci.org/fixterjake/FixterjakeAngular)
+[![Build status](https://ci.appveyor.com/api/projects/status/bgml3aeb9sskydxy?svg=true)](https://ci.appveyor.com/project/fixterjake/fixterjakeangular)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
 
 ## Development server
